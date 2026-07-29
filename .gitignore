@@ -1,0 +1,52 @@
+# Laravel / PHP
+/vendor
+/bootstrap/cache/*
+/storage/*.key
+/storage/pail
+/storage/app/public/*
+/public/storage
+/public/hot
+/public/build
+/public/fonts-manifest.dev.json
+/bootstrap/ssr
+/resources/js/actions
+/resources/js/routes
+/resources/js/wayfinder
+
+# Environment files
+.env
+.env.backup
+.env.production
+.env.testing
+
+# Testing / tooling
+/.phpunit.cache
+/.phpunit.result.cache
+/coverage
+/.phpactor.json
+*.tsbuildinfo
+
+# Local databases
+/database/*.sqlite
+/database/*.sqlite-journal
+
+# Node / Vite
+/node_modules
+/build
+/dist
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# macOS / editor junk
+.DS_Store
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
+
+# Homestead / deployment
+Homestead.json
+Homestead.yaml
+/auth.json
